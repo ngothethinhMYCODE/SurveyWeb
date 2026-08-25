@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+main {
+    width: 650px;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 155px;
+    height: 135px;
+    background-color: #c9302c;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.logo-icon {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.logo-text {
+    font-family: Georgia, serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    color: #285d68;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 27px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    max-width: 700px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 20px 0;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    width: 170px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-row input {
+    width: 320px;
+    height: 30px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.radio-group label {
+    white-space: nowrap;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.contact-row {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.contact-row select {
+    font-size: 18px;
+    padding: 3px;
+}
+
+button {
+    margin-top: 25px;
+    font-size: 18px;
+    padding: 6px 15px;
+}
